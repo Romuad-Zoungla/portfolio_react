@@ -2,7 +2,7 @@ import { CONTACT } from "../constants";
 import {motion} from "framer-motion";
 const Contact = () => {
     return ( 
-        <div className="border-t border-stone-900 pb-20">
+        <div className="border-t border-stone-900 pb-16 lg:pb-20">
    <motion.h2 
                            whileInView={{ opacity: 1, y: 0 }}
                            initial={{ opacity: 1, y: -100 }}

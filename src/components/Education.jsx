@@ -18,8 +18,8 @@ const Educations = () => {
          <p className="mb-2 text-sm text-stone-400">{education.year}</p>
          </motion.div>
 
-         <motion.div  initial={{ opacity: 0, x: -100 }}
-                           whileInView={{ opacity: 1, x: 0 }}
+         <motion.div  initial={{ opacity: 0, x: -100 }} 
+                           whileInView={{ opacity: 1, x: 0 }} 
                            transition={{ duration: 1.2 }}
                            className="w-full max-w-xl lg:w-3/4">
          <h3 className="mb-2 font-semibold ">
