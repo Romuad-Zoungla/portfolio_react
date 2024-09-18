@@ -38,6 +38,38 @@ export const EXPERIENCES = [
   },
 ];
 
+export const EDUCATION = [
+  {
+    year: "2023 (6 mois)",
+    degree: "Formation en Graphisme",
+    institution: "Centre de Formation en Arts Numériques, Bénin",
+    description: `Développement de compétences en design graphique à l'aide des logiciels Adobe Photoshop, Illustrator et InDesign. Création de visuels pour des projets de branding, marketing et communication visuelle.`,
+    technologies: ["Adobe Photoshop", "Illustrator", "InDesign"],
+  },
+  {
+    year: "2022 (3 mois)",
+    degree: "Certificat en Marketing Digital",
+    institution: "Google Digital Garage",
+    description: `Apprentissage des bases du marketing digital, y compris l'optimisation des moteurs de recherche (SEO), la publicité en ligne, et la gestion des réseaux sociaux. Approfondissement des stratégies de contenu numérique.`,
+    technologies: ["SEO", "Google Ads", "Facebook Ads"],
+  },
+  {
+    year: "2021 - 2022",
+    degree: "Licence professionnelle en Systèmes Informatiques et Logiciels",
+    institution: "Université de Cotonou, Bénin",
+    description: `Acquisition de compétences en développement logiciel, gestion de bases de données et en conception de systèmes informatiques. Projets pratiques incluant la conception d'applications web et mobiles, ainsi que l'intégration des bases de données.`,
+    technologies: ["Java", "PHP", "SQL", "JavaScript"],
+  },
+  {
+    year: "2019 - 2021",
+    degree: "BTS en Informatique de Gestion",
+    institution: "Institut Supérieur de Technologie Appliquée, Bénin",
+    description: `Formation en gestion de systèmes d'information, développement d'applications d'entreprise, et analyse des besoins informatiques. Participation à des stages professionnels pour acquérir une expérience concrète du secteur.`,
+    technologies: ["C#", "VB.NET", "Oracle", "MySQL"],
+  }
+];
+
+
 export const PROJECTS = [
   {
     title: "Site E-Commerce ",

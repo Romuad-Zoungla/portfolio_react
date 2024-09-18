@@ -1,5 +1,6 @@
 import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
+import Educations from "./components/Education";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -15,12 +16,13 @@ const App = () => {
         </div>
         </div>
   </div>
-  <div className="container mx-auto px-4 md:px-8">
+  <div className="container mx-auto px-6 md:px-8">
   <Navbar/>
   <Hero/>
   <Technologies/>
   <Projects/>
   <Experiences/>
+  <Educations/>
   <Contact/>
   </div> 
  
