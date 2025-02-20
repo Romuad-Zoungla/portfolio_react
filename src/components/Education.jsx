@@ -8,13 +8,14 @@ const Educations = () => {
                            transition={{ duration: 1.5 }}
       className="my-8 lg:my-16 text-center text-4xl">
         Mes Formations</motion.h2>
-      
+       
    <div>
      {EDUCATION.map((education, index) => (
        <div key={index} className="mb-6 flex flex-wrap lg:justify-center" >
         <motion.div  initial={{ opacity: 0, x: 100 }}
                            whileInView={{ opacity: 1, x: 0 }}
-                           transition={{ duration: 1.5 }} className="w-full lg:w-1/4">
+                           transition={{ duration: 1.5 }} 
+                           className="w-full lg:w-1/4">
          <p className="mb-2 text-sm text-stone-400">{education.year}</p>
          </motion.div>
 

@@ -6,6 +6,7 @@ import {FaNodeJs} from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoPostgresql } from "react-icons/bi";
 import {motion} from "framer-motion";
+import SkillCard from "./SkillCards";
 
 const iconVariants = (duration) =>(
     {
@@ -27,6 +28,10 @@ const iconVariants = (duration) =>(
 const Technologies = () => {
     return (  
     <div className="pb-8 md:pb-12">
+
+<SkillCard />
+
+
         <motion.h2
          initial={{ opacity: 0, y: -100 }}
          whileInView={{ opacity: 1, y: 0 }}
